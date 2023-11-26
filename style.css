@@ -1,0 +1,259 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+.ig_logo{
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstbox .firstpart .logo, 
+.firstbox .firstpart p, 
+.firstbox .firstpart button{
+  margin-bottom: 15px;
+}
+
+.firstbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  
+}
+
+.firstpart .firstbox{
+  text-align: center;
+}
+
+.firstbox .firstpart > p{
+
+  font-weight: bold;
+  color: #8e8e8e;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.firstbox .firstpart > button{
+  margin-left: 80px;
+  width: inherit;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0095f6;
+  color: #ffffff;
+}
+
+.fb_logo{
+  width: 15px;
+  margin-bottom: -2px;
+}
+
+.firstbox .firstpart div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #8e8e8e;
+}
+
+.firstbox .firstpart div hr{
+  width: 200px;
+
+}
+
+.firstbox .firstpart div p{
+  padding: 0 20px;  
+}
+
+.firstbox .fields{
+  display: flex;
+  flex-direction: column;
+}
+
+.firstbox .fields form, input{
+  width: inherit;
+  
+}
+
+.firstbox .fields form input{
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding: 10px 5px;
+  margin: 5px 0;
+}
+
+.firstbox .fields form input:last-of-type{
+  margin-bottom: 10px;  
+}
+
+.firstbox .fields form button{
+  width: inherit;
+  margin-bottom: 20px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0095f6;
+  color: #ffffff;
+}
+
+.firstbox .fields ul{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstbox .fields ul li{
+  display: inline;
+  color: #8e9096;
+}
+
+.firstbox .fields ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #8e9096;
+}
+
+.download{
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;;
+}
+
+.download >img{
+  margin-top: 20px;
+}
+
+.download > img.gplay{
+  width: 150px;
+  margin-right: 10px;
+}
+
+.download > img.microsoft{
+  width: 125px;
+  margin-left: 10px;
+}
+
+.Login p > a{
+    text-decoration: none;
+    color: #00a0f7;
+}
+
+.Login{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.misc{
+  bottom: 0;
+  height: 2.5rem;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;;
+}
+
+.misc ul{
+  text-align: center;
+}
+.misc ul li{
+  display: inline;
+  margin-right: 5px;
+}
+.misc ul li a{
+  text-decoration: none;
+  font-size: 12px; 
+  color: #8e9096;
+}
+
+.misc p{
+  margin: 10px 0;
+  text-align: center;
+  color: #8e9096;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-family: Freight Sans
+    }
+
+  .firstbox{
+    width: 250px;
+    background-color: #fafafa;
+  }
+
+  .firstbox .firstpage{
+    width: inherit;
+    margin-top: 10px;
+  }
+
+  .firstbox .fields{
+    width: inherit;
+  }
+
+  .Login{
+    margin: 80px 0;
+  }
+
+  .firstbox .fields input{
+    padding: 10px 5px;
+    margin: 5px 0;
+  }
+
+  .firstbox .misc{
+    width: inherith
+  }
+}
+
+@media only screen and (min-width: 401px){
+    body {
+        font-family: Neue Helvetica
+    }
+  .firstbox{
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    background-color: white;
+    margin: 40px 40px 10px 40px;
+  }
+
+  .firstbox .firstpage{
+    width: 270px;
+    margin-top: 15px;
+  }
+
+  .firstbox .fields{
+    width: 270px;
+  }
+
+  .Login{
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    margin-top: 20px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .firstbox .footer{
+    width: 100%;
+  }
+}
